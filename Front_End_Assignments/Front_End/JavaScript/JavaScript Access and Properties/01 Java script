@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Button Disappearing Example</title>
+  </head>
+  <body>
+    <button onclick="this.style.display='none'">Click me!</button>
+  </body>
+</html>

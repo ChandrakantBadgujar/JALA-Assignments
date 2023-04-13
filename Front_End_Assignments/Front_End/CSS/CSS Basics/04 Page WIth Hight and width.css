@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example Page</title>
+    <style>
+      /* Set height and width of an element in pixels */
+      .box-pixels {
+        height: 200px;
+        width: 300px;
+        background-color: #ccc;
+      }
+      
+      /* Set height and width of an element in percentages */
+      .box-percentages {
+        height: 50%;
+        width: 50%;
+        background-color: #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box-pixels">This box is 200 pixels tall and 300 pixels wide.</div>
+    <div class="box-percentages">This box is 50% of the height and width of its parent element.</div>
+  </body>
+</html>
+

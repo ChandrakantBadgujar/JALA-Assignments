@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* CSS for the grid layout */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .grid-item {
+      background-color: #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+
+    /* CSS for media queries */
+    @media screen and (max-width: 600px) {
+      .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      }
+    }
+
+    /* CSS for image and video handling */
+    img, video {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Viewport for Grid, Media Queries, Image and Video</h1>
+
+  <!-- Grid layout container -->
+  <div class="grid-container">
+    <div class="grid-item">
+      <h2>Image</h2>
+      <img src="backimage1.jpg" alt="Example Image">
+    </div>
+    <div class="grid-item">
+      <h2>Video</h2>
+      <video controls>
+        <source src="example-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="grid-item">
+      <h2>Text</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium sapien et felis bibendum, id consequat nunc semper.</p>
+    </div>
+    <div class="grid-item">
+      <h2>Image</h2>
+      <img src="backimage1.jpg" alt="Example Image">
+    </div>
+    <div class="grid-item">
+      <h2>Text</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium sapien et felis bibendum, id consequat nunc semper.</p>
+    </div>
+    <div class="grid-item">
+      <h2>Video</h2>
+      <video controls>
+        <source src="example-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+
+</body>
+</html>

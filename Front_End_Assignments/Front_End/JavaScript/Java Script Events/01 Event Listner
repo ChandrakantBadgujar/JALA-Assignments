@@ -1,0 +1,15 @@
+<button id="myButton">Click me</button>
+
+<p id="datetime"></p>
+
+<script>
+  // Add an event listener to the button
+  document.getElementById("myButton").addEventListener("click", function() {
+    // Get the current date and time
+    var now = new Date();
+    // Format the date and time as a string
+    var datetimeString = now.toLocaleString();
+    // Set the HTML content of the <p> element to the datetime string
+    document.getElementById("datetime").innerHTML = datetimeString;
+  });
+</script> 

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Input Attributes and Restrictions</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Text and Password Inputs</legend>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" maxlength="20" size="30" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="8" required>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Radio and Checkbox Inputs</legend>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <br>
+        <label for="hobbies">Hobbies:</label>
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="writing" name="hobbies" value="writing">
+        <label for="writing">Writing</label>
+        <input type="checkbox" id="coding" name="hobbies" value="coding">
+        <label for="coding">Coding</label>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Button Inputs</legend>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        <button type="button">Click Me!</button>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>HTML5 Input Types</legend>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+        <br>
+        <label for="price">Price:</label>
+        <input type="range" id="price" name="price" min="0" max="100" value="50">
+        <br>
+        <label for="color">Color:</label>
+        <input type="color" id="color" name="color" value="#ff0000">
+        <br>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" value="2023-04-11">
+        <br>
+        <label for="file">File:</label>
+        <input type="file" id="file" name="file">
+        <br>
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" value="12:00">
+        <br>
+        <label for="month">Month:</label>
+        <input type="month" id="month" name="month" value="2023-04">
+        <br>
+        <label for="week">Week:</label>
+        <input type="week" id="week" name="week" value="2023-W15">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </fieldset>
+      <br>
+      <fieldset>
+      <h2>Input Restrictions</h2>
+        
+        <label for="disabled">Disabled:</label>
+        <input type="text" id="disabled" name="disabled" disabled><br>
+
+        <label for="max">Max value:</label>
+        <input type="number" id="max" name="max" max="100"><br>
+
+        <label for="maxlength">Max length:</label>
+        <input type="text" id="maxlength" name="maxlength" maxlength="10"><br>
+
+        <label for="min">Min value:</label>
+        <input type="number" id="min" name="min" min="0"><br>
+
+      <label for="readonly">Readonly:</label>
+      </fieldset>
+      <br>
+      <fieldset>
+        <h1>Click on the link below to open in a new window:</h1>
+	    <a href="https://www.google.com" target="_blank">Example Website</a>
+      </fieldset>
+      <br>
+      <fieldset>
+        <h1>Click on the link below to open in the same window:</h1>
+	    <a href="https://www.google.com" target="_self">Example Website</a>
+      </fieldset>
+      <br>
+      <fieldset>
+        <iframe src="http://www.example.com"></iframe>
+      </fieldset>
+      <br>
+      <fieldset>
+        <marquee behavior="scroll" direction="left">Scrolling text goes here</marquee>
+      </fieldset>

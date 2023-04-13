@@ -1,0 +1,13 @@
+function greet(name, age) {
+  console.log(`Hello, my name is ${name} and I am ${age} years old.`);
+}
+
+// Using call()
+greet.call(null, "Sonu", 30);
+
+// Using apply()
+greet.apply(null, ["MOnu", 25]);
+
+/*the main difference between call() and apply() is in the way arguments are passed to the function. 
+call() passes each argument individually, while apply() passes an array of arguments.
+*/

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Positioning Example</title>
+	<style>
+		.static {
+			position: static;
+		}
+
+		.relative {
+			position: relative;
+		}
+
+		.fixed {
+			position: fixed;
+			top: 0;
+			left: 0;
+		}
+
+		.absolute {
+			position: absolute;
+			top: 50px;
+			left: 50px;
+		}
+
+		.sticky {
+			position: sticky;
+			top: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="static">This is a static element</div>
+	<div class="relative">This is a relative element</div>
+	<div class="fixed">This is a fixed element</div>
+	<div class="absolute">This is an absolute element</div>
+	<div class="sticky">This is a sticky element</div>
+</body>
+</html>

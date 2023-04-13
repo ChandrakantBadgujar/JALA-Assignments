@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Overflow Scroll Example</title>
+	<style>
+		.container {
+			width: 300px;
+			height: 200px;
+			overflow: scroll;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<p>To handle overflow using scroll in HTML, you can add the CSS property overflow: scroll;
+             to the container element. This will add a scroll bar to the container element whenever its content overflows.
+             In this program, we have a container div element with a class of container. 
+             We've set its width and height to 300px and 200px respectively, and added the overflow: scroll; 
+             CSS property to it. Inside the container, we have a p element with some dummy text that overflows the container's height.
+             When you open this program in a web browser, you'll see that the container element has a scroll bar that you can use to scroll through the overflowing content.</p>
+	</div>
+</body>
+</html>

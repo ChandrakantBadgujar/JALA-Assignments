@@ -1,0 +1,18 @@
+// create JSON object
+const person = {
+  name: 'John Doe',
+  age: 30,
+  address: {
+    street: '123 Main St',
+    city: 'Anytown',
+    state: 'CA',
+    zip: '12345'
+  },
+  hobbies: ['reading', 'traveling', 'hiking']
+};
+
+// access object properties using dot notation
+console.log(person.name); // output: John Doe
+console.log(person.age); // output: 30
+console.log(person.address.street); // output: 123 Main St
+console.log(person.hobbies[1]); // output: traveling

@@ -1,0 +1,59 @@
+<style>
+  .visible-element {
+    visibility: visible;
+    display: block;
+  }
+
+  .hidden-element {
+    visibility: hidden;
+    display: inline;
+  }
+
+  .collapsed-element {
+    visibility: collapse;
+    display: block;
+  }
+
+  .removed-element {
+    display: none;
+  }
+
+  .inline-element {
+    display: inline;
+  }
+
+  .block-element {
+    display: block;
+  }
+
+  .contents-element {
+    display: contents;
+  }
+
+  .list-item-element {
+    display: list-item;
+  }
+</style>
+
+<div class="visible-element">This is a visible element displayed as a block-level element.</div>
+
+<div class="hidden-element">This is a hidden element displayed inline.</div>
+
+<table>
+  <tr>
+    <td>This is a table row.</td>
+    <td class="collapsed-element">This is a collapsed table cell.</td>
+  </tr>
+</table>
+
+<div class="removed-element">This element is removed from the document flow.</div>
+
+<span class="inline-element">This is an inline element.</span>
+
+<div class="block-element">This is a block-level element.</div>
+
+<div class="contents-element">This element behaves as if it was not wrapped in its own tag.</div>
+
+<ul>
+  <li class="list-item-element">This is a list item.</li>
+</ul>

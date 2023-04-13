@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Basics</title>
+    <style>
+      /* CSS styles for some of the elements */
+      h1 {
+        color: navy;
+      }
+      p {
+        font-size: 16px;
+      }
+      em {
+        font-style: italic;
+      }
+      strong {
+        font-weight: bold;
+      }
+      ul {
+        list-style: square;
+      }
+      blockquote {
+        margin-left: 40px;
+        font-style: italic;
+      }
+      img {
+        width: 300px;
+        height: auto;
+        border: 2px solid black;
+        margin: 10px;
+      }
+      div {
+        background-color: lightgray;
+        padding: 10px;
+      }
+      span {
+        color: red;
+        font-weight: bold;
+      }
+      a:link {
+        color: navy;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      label::before {
+        content: "Please enter your name: ";
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to my Web Page</h1>
+    <p>This is a sample web page that uses various HTML tags and some CSS styling.</p>
+    <h2>Basic Text Formatting</h2>
+    <p>Here are some examples of <em>italic</em> and <strong>bold</strong> text.</p>
+    <h2>Links and Lists</h2>
+    <p>Check out my favorite websites:</p>
+    <ul>
+      <li><a href="https://www.google.com/">Google</a></li>
+      <li><a href="https://www.wikipedia.org/">Wikipedia</a></li>
+      <li><a href="https://www.youtube.com/">YouTube</a></li>
+    </ul>
+    <h2>Blockquote and Horizontal Rule</h2>
+    <blockquote>
+      "The future belongs to those who believe in the beauty of their dreams." - Eleanor Roosevelt
+    </blockquote>
+    <hr>
+    <h2>Images and Divisions</h2>
+    <p>Here's a picture of a cute cat:</p>
+    <img src="https://cdn.pixabay.com/photo/2016/02/10/16/37/cat-1192026_960_720.jpg" alt="Cute cat">
+    <div>
+      <p>This text is inside a <code>div</code> element with a light gray background.</p>
+      <p>It can contain any other HTML elements, such as a <span>span</span> element with red text.</p>
+    </div>
+    <h2>Form Label</h2>
+    <form>
+      <label for="nameInput">Name:</label>
+      <input type="text" id="nameInput" name="name">
+    </form>
+    <h2>Navigation within the Page</h2>
+    <p>You can navigate to different sections of this page using the following links:</p>
+    <ul>
+      <li><a href="#basic-text-formatting">Basic Text Formatting</a></li>
+      <li><a href="#links-and-lists">Links and Lists</a></li>
+      <li><a href="#blockquote-and-horizontal-rule">Blockquote and Horizontal Rule</a></li>
+      <li><a href="#images-and-divisions">

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Simple Web Page</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to my website</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <h2>About Me</h2>
+        <p>Hi, I'm John. I love web development and learning new things.</p>
+      </article>
+
+      <section>
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br>
+
+          <input type="submit" value="Send">
+        </form>
+      </section>
+
+      <section>
+        <h2>My Skills</h2>
+        <table>
+          <tr>
+            <th>Language</th>
+            <th>Proficiency</th>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td>Expert</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Intermediate</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Beginner</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 My Simple Web Page</p>
+    </footer>
+  </body>
+</html>
+
+
+
+
+
+

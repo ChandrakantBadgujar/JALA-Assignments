@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Animations and Paginations</title>
+	<style>
+		/* Define CSS animation */
+		@keyframes color-change {
+			0% {
+				background-color: red;
+			}
+			50% {
+				background-color: blue;
+			}
+			100% {
+				background-color: green;
+			}
+		}
+
+		/* Apply CSS animation to the div element */
+		.box {
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			animation-name: color-change;
+			animation-duration: 3s;
+			animation-iteration-count: infinite;
+			animation-delay: 1s;
+		}
+
+		/* Add pagination with hover effect and space between items */
+		.pagination {
+			display: flex;
+			justify-content: center;
+			margin-top: 20px;
+			list-style-type: none;
+			padding: 0;
+		}
+
+		.pagination li {
+			margin: 0 10px;
+		}
+
+		.pagination li:hover {
+			background-color: gray;
+			cursor: pointer;
+		}
+
+		/* Add pagination without space between items */
+		.pagination.no-space li {
+			margin: 0;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+	<ul class="pagination">
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+	</ul>
+	<ul class="pagination no-space">
+		<li>1</li><li>2</li><li>3</li><li>4</li><li>5</li>
+	</ul>
+</body>
+</html

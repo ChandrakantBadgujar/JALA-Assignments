@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Adding Opacity to an Image</title>
+    <style>
+      img {
+        opacity: 0.5; /* set opacity to 50% */
+      }
+    </style>
+  </head>
+  <body>
+    <img src="example.jpg" alt="Example Image">
+  </body>
+</html>

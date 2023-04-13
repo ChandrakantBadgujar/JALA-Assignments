@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Counter Example</title>
+	<script>
+		// initialize counter to 0
+		var counter = 0;
+
+		function incrementCounter() {
+			// increment the counter
+			counter++;
+
+			// update the counter display
+			document.getElementById("counter-display").innerHTML = counter;
+		}
+	</script>
+</head>
+<body>
+	<h1>Counter Example</h1>
+
+	<p>Click the button to increment the counter:</p>
+	<button onclick="incrementCounter()">Count</button>
+
+	<p>Counter value: <span id="counter-display">0</span></p>
+</body>
+</html>

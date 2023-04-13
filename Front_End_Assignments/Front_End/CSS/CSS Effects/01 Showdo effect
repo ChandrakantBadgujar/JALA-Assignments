@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Shadow Effects</title>
+	<style>
+		.image-box {
+			box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+			transition: box-shadow 0.3s ease;
+		}
+		.image-box:hover {
+			box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+		}
+	</style>
+</head>
+<body>
+	<div class="image-box">
+		<img src="https://via.placeholder.com/150" alt="Placeholder Image">
+	</div>
+</body>
+</html>

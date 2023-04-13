@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Smooth Scroll Example</title>
+    <style>
+      /* Styles for the links */
+      .scroll-link {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        scroll-behavior: smooth;
+      }
+      
+      /* Styles for the "back to top" link */
+      .scroll-top {
+        top: 20px;
+        bottom: auto;
+      }
+      
+      /* Styles for the "go to bottom" link */
+      .scroll-bottom {
+        bottom: 20px;
+        top: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- The long page content -->
+    <div>
+      <h1>Heading 1</h1>
+      <p>Content goes here...</p>
+      <!-- Repeat as needed -->
+    </div>
+    
+    <!-- The "back to top" link -->
+    <a href="#top" class="scroll-link scroll-top">Click to go to top of page</a>
+    
+    <!-- The "go to bottom" link -->
+    <a href="#bottom" class="scroll-link scroll-bottom">Click to go to bottom of page</a>
+    
+    <!-- Add an ID to the top of the page -->
+    <div id="top"></div>
+    
+    <!-- Add an ID to the bottom of the page -->
+    <div id="bottom"></div>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+body {
+    background-color: #F5F5F5; /* Set default background color */
+  }
+  
+  section {
+    height: 100vh; /* Set the section height to 100% of the viewport height */
+  }
+  
+  #section1 {
+    background-color: #F5F5F5; /* Set the background color of section 1 */
+  }
+  
+  #section2 {
+    background-color: #CCCCCC; /* Set the background color of section 2 */
+  }
+  
+  #section3 {
+    background-color: #F5F5F5; /* Set the background color of section 3 */
+    background-image: url('backimage1.jpg'); /* Set the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-attachment: fixed; /* Set the background image to fixed */
+    background-size: cover; /* Set the size of the background image to cover the entire section */
+  }
+  

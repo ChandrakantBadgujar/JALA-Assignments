@@ -1,0 +1,38 @@
+class Counter {
+  constructor() {
+    this._count = 0;
+  }
+
+  get count() {
+    return this._count;
+  }
+
+  set count(value) {
+    if (value >= 0) {
+      this._count = value;
+    }
+  }
+
+  increment() {
+    this._count++;
+  }
+
+  decrement() {
+    if (this._count > 0) {
+      this._count--;
+    }
+  }
+}
+const counter = new Counter();
+counter.increment();
+counter.increment();
+console.log(counter.count); // Output: 2
+
+counter.decrement();
+console.log(counter.count); // Output: 1
+
+counter.count = 5;
+console.log(counter.count); // Output: 5
+
+counter.count = -1; // count value won't be set as it is less than 0
+console.log(counter.count); // Output: 5

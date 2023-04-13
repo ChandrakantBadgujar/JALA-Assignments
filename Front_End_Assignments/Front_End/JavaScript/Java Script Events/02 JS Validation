@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Validation Example</title>
+  </head>
+  <body>
+    <form onsubmit="return validateForm()">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username">
+      <br><br>
+      <button type="submit">Submit</button>
+    </form>
+
+    <script>
+      function validateForm() {
+        // Get the value of the username input field
+        var username = document.getElementById("username").value;
+
+        // Check if the username is empty
+        if (username == "") {
+          // Display an error message
+          alert("Please enter a username.");
+          // Prevent the form from submitting
+          return false;
+        }
+      }
+    </script>
+  </body>
+</html>

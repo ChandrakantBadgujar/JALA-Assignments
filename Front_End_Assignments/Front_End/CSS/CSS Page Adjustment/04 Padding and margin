@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div {
+        background-color: #F0E68C;
+        border: 1px solid #808080;
+        padding: 20px;
+        margin: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>This is a heading</h1>
+      <p>This is some content inside a div.</p>
+    </div>
+  </body>
+</html>

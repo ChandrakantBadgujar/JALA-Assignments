@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Debugging with console.log()</title>
+  </head>
+  <body>
+    <h1>Debugging with console.log()</h1>
+    <p>Open the console to view debug messages.</p>
+
+    <script>
+      // Example debug message
+      const debugMessage = "This is a debug message.";
+
+      // Log the debug message to the console
+      console.log(debugMessage);
+    </script>
+  </body>
+</html>

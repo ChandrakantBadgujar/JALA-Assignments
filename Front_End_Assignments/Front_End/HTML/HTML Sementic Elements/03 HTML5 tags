@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Simple Web Page</title>
+</head>
+<body>
+  <header>
+    <hgroup>
+      <h1>My Simple Web Page</h1>
+      <h2>Subtitle</h2>
+    </hgroup>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <article>
+      <h1>Article Title</h1>
+      <p>Here is some text for my article.</p>
+
+      <figure>
+        <img src="https://via.placeholder.com/150" alt="placeholder image">
+        <figcaption>Here is a caption for the image.</figcaption>
+      </figure>
+
+      <aside>
+        <p>Here is some additional information that is related to the article.</p>
+      </aside>
+
+      <footer>
+        <p>Copyright © 2023</p>
+      </footer>
+    </article>
+  </section>
+
+  <mark>This text will be highlighted</mark>
+
+  <time datetime="2023-04-11">April 11, 2023</time>
+
+</body>
+</html>

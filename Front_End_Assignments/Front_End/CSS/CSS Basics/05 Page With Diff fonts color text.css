@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Font Styles Example</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			color: #333;
+			text-align: center;
+		}
+
+		h1 {
+			font-family: Georgia, serif;
+			font-size: 48px;
+			color: #FF0000;
+			text-align: center;
+		}
+
+		h2 {
+			font-family: Verdana, sans-serif;
+			font-size: 24px;
+			color: #0000FF;
+			text-align: center;
+		}
+
+		p {
+			font-family: "Times New Roman", Times, serif;
+			font-size: 20px;
+			color: #008000;
+			text-align: justify;
+		}
+
+		span {
+			font-family: Courier, monospace;
+			font-size: 18px;
+			color: #800080;
+			text-align: center;
+		}
+    </style>
+</head>
+<body>
+	<h1>Header 1</h1>
+	<h2>Header 2</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin feugiat blandit felis non aliquet. Sed quis semper tellus. Nullam in lorem in nisl mattis sagittis. Donec tincidunt est mauris, quis pellentesque mi scelerisque nec. Duis imperdiet, purus vel gravida pharetra, nibh nibh varius magna, vel facilisis mi turpis ac ante. Nulla facilisi. Nam sit amet eleifend magna, at imperdiet arcu. Sed sed varius felis. Sed a lobortis ex. Fusce id augue vehicula, lobortis elit quis, facilisis sapien.</p>
+	<p><span>This is a span element.</span> Mauris sit amet massa eu purus tincidunt laoreet. Etiam non urna non velit consectetur malesuada. Nulla facilisi. Proin vitae mauris hendrerit, ultricies mauris a, fringilla ipsum. Nulla eu lectus varius, mattis odio ac, dictum nulla. Vivamus in libero et quam molestie lobortis sit amet at elit. Pellentesque nec tortor rutrum, eleifend mi vel, scelerisque sem. Praesent non eros vel est ultrices luctus. Etiam ut congue tellus. Nulla ut malesuada ipsum. Sed luctus felis eu justo facilisis, ut consequat lectus suscipit.</p>
+</body>
+</html>
+	
